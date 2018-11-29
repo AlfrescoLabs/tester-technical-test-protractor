@@ -11,5 +11,11 @@ The Alfresco Technical Test Project
 
 * nodejs is installed on the machine
 * Protractor is globally installed: If not, run command: npm install -g protractor
+* jasmine-spec-reporter is installed: If not, run command: npm install -g jasmine-spec-reporter
+* The Content Application running and the correct baseURL is updated in conf.js
+
+#### Run Tests
+* Run npm install
 * Update web-drive if necessary: Using command: webdriver-manager update
 * Start websdriver: Using command: webdriver-manager start
+* Run protractor conf.js
